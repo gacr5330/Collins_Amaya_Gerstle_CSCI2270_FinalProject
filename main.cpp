@@ -1,8 +1,8 @@
 #include <iostream>
 #include "Decks.h"
-#include "Game.h"
 #include <iostream>
 #include <stdlib.h>
+#include <Game.h>
 #include <time.h>
 
 using namespace std;
@@ -42,7 +42,7 @@ int main()
             }
 
             Game game(playerint, moneyint);
-            game.playRound(&newdeck);
+            game.playRound(playerint, &newdeck);
 
 
 
